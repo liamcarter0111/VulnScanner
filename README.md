@@ -62,7 +62,7 @@ python3 vulnscanner.py <target_url>
 
 2. **Scan with Port Scanning**:
    ```bash
-   python3 VulnScanner.py http://example.com --ports
+   python3 vulnscanner.py http://example.com --ports
    ```
 
    Example Output:
