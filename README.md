@@ -26,7 +26,7 @@ VulnScanner is a Python-based tool designed to detect common web vulnerabilities
 3. **Verify Setup**:
    Confirm the script runs and dependencies are installed:
    ```bash
-   python3 VulnScanner.py --help
+   python3 vulnscanner.py --help
    ```
 
 ## 🚀 Usage
@@ -35,7 +35,7 @@ Execute the script via the command line, providing the target URL and optional a
 
 ### Basic Command
 ```bash
-python3 VulnScanner.py <target_url>
+python3 vulnscanner.py <target_url>
 ```
 
 - `<target_url>`: The URL to scan (e.g., `http://example.com`).
@@ -48,7 +48,7 @@ python3 VulnScanner.py <target_url>
 
 1. **Basic Scan** (XSS and SQLi):
    ```bash
-   python3 VulnScanner.py http://example.com
+   python3 vulnscanner.py http://example.com
    ```
 
    Example Output:
@@ -79,7 +79,7 @@ python3 VulnScanner.py <target_url>
 
 3. **Custom Timeout**:
    ```bash
-   python3 VulnScanner.py http://example.com --timeout 10
+   python3 vulnscanner.py http://example.com --timeout 10
    ```
 
 ## ⚠️ Important Notes
@@ -102,6 +102,6 @@ python3 VulnScanner.py <target_url>
 
 ## 📬 Feedback
 
-Encountered an issue or have a suggestion? File an issue on the [GitHub repository](https://github.com/liamcarter0111/VulnScanner) or contact me at [liam.carter@huntbugs.io](mailto:liam.carter@huntbugs.io).
+Encountered an issue or have a suggestion? File an issue on the [GitHub repository](https://github.com/liamcarter0111/VulnScanner) or contact me at [liamcarter0111@outlook.com](mailto:liamcarter0111@outlook.com).
 
 Happy bug hunting! 🕵️‍♂️
